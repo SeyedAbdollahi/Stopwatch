@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Clock</string>
+    <string name="initial_time">00:00:00.00</string>
+    <string name="time_stopwatch">%02d:%02d:%02d.%02d</string>
+    <string name="time_countdown_minutes">%02d</string>
+    <string name="time_countdown_seconds">%02d</string>
+    <string name="btn_start">START</string>
+    <string name="btn_stop">STOP</string>
+    <string name="btn_pause">PAUSE</string>
+    <string name="btn_reset">RESET</string>
+    <string name="btn_resume">RESUME</string>
+    <string name="time_up">Time is up</string>
+    <string name="point">:</string>
+    <string name="zero">00</string>
+    <string name="MM">MM</string>
+    <string name="SS">SS</string>
+    <string name="stopwatch">StopWatch</string>
+    <string name="countdown">CountDown</string>
+</resources>
