@@ -43,13 +43,8 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="@id/btn_stopwatch"/>
     <FrameLayout
-        android:id="@+id/stopwatch_frame"
+        android:id="@+id/frame"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-    <FrameLayout
-        android:id="@+id/countdown_frame"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-    </FrameLayout>
 
 </android.support.constraint.ConstraintLayout>

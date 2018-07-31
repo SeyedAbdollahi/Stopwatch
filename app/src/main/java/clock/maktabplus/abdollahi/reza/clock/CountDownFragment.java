@@ -54,11 +54,11 @@ public class CountDownFragment extends Fragment {
     }
 
     public void findViews(View view){
-        txtTimeUp = view.findViewById(R.id.txt_timeup);
+        txtTimeUp = view.findViewById(R.id.txt_time_up);
         edtMM = view.findViewById(R.id.edt_mm);
         edtSS = view.findViewById(R.id.edt_ss);
-        btnStartPause = view.findViewById(R.id.btn_countdown_start_pause);
-        btnReset = view.findViewById(R.id.btn_countdown_reset);
+        btnStartPause = view.findViewById(R.id.btn_start_pause);
+        btnReset = view.findViewById(R.id.btn_reset);
         waveLoadingView = view.findViewById(R.id.wave_loading);
     }
 

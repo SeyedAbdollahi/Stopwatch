@@ -52,9 +52,9 @@ public class StopWatchFragment extends Fragment {
     }
 
     private void findViews(View view){
-        txtStopWatchClock = view.findViewById(R.id.txt_stopwatch_clock);
-        btnStartStopWatch = view.findViewById(R.id.btn_stopwatch_start);
-        btnStopStopWatch = view.findViewById(R.id.btn_stopwatch_stop);
+        txtStopWatchClock = view.findViewById(R.id.txt_clock);
+        btnStartStopWatch = view.findViewById(R.id.btn_start);
+        btnStopStopWatch = view.findViewById(R.id.btn_stop);
     }
 
     private void configureViews(){
