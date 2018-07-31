@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 StopWatchFragment stopWatchFragment = new StopWatchFragment();
                 getFragmentManager().beginTransaction()
-                        .add(R.id.frame, stopWatchFragment)
+                        .add(R.id.stopwatch_frame , stopWatchFragment)
                         .addToBackStack(null)
                         .commit();
             }
@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 CountDownFragment countDownFragment = new CountDownFragment();
                 getFragmentManager().beginTransaction()
-                        .add(R.id.frame , countDownFragment)
+                        .add(R.id.countdown_frame , countDownFragment)
                         .addToBackStack(null)
                         .commit();
             }

@@ -46,9 +46,15 @@
         app:layout_constraintTop_toTopOf="@id/btn_stopwatch"
         style="@style/Widget.AppCompat.Button.Colored"/>
     <FrameLayout
-        android:id="@+id/frame"
+        android:id="@+id/stopwatch_frame"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:elevation="5dp"/>
+    <FrameLayout
+        android:id="@+id/countdown_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="5dp">
+    </FrameLayout>
 
 </android.support.constraint.ConstraintLayout>
